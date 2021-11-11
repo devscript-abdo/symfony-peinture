@@ -1,6 +1,6 @@
 # Pinture website
 
-Pinture is a website by abdelghafour using Symfony
+Pinture is a website by [Abdelghafour](https://elmarzougui.net/) using Symfony
 
 ## Dev ENV
 ### Technical Requirements
