@@ -5,7 +5,6 @@ namespace App\Tests;
 use App\Entity\Categorie;
 use App\Entity\Peinture;
 use App\Entity\User;
-use DateTime;
 use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 
@@ -27,7 +26,7 @@ class PeintureUnitTest extends TestCase
             ->setDateRealisation($datetime)
             ->setCreatedAt($datetime)
             ->setDescription('description')
-            ->setPortfolio(true)
+            ->setPortfolio(true) 
             ->setSlug('slug')
             ->setFile('file')
             ->addCategorie($categorie)
