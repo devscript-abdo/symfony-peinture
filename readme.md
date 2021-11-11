@@ -13,3 +13,9 @@ The symfony binary also provides a tool to check if your computer meets all requ
 ```bash
 symfony check:requirements
 ```
+
+### Run dev ENV
+
+```bash
+symfony serve -d
+```
