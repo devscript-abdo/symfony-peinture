@@ -19,3 +19,8 @@ symfony check:requirements
 ```bash
 symfony serve -d
 ```
+* generate css and js file  inside  public/build folder
+
+```bash
+npm run build
+```
