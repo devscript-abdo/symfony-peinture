@@ -7,6 +7,7 @@ Pinture is a website by [Abdelghafour](https://elmarzougui.net/) using Symfony 5
 
 * PHP 7.4
 * Composer
+* nodjs npm
 
 The symfony binary also provides a tool to check if your computer meets all requirements. Open your console terminal and run this command:
 
@@ -17,6 +18,8 @@ symfony check:requirements
 ### Run dev ENV
 
 ```bash
+composer install
+npm install
 symfony serve -d
 ```
 * generate css and js file  inside  public/build folder
