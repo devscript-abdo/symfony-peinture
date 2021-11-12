@@ -27,3 +27,9 @@ symfony serve -d
 ```bash
 npm run build
 ```
+
+### Run test
+
+```bash
+php bin/phpunit --testdox
+```
